@@ -1,8 +1,8 @@
 import path from 'node:path';
 
-import type { Options } from '@/core/glob.js';
+import type { Options } from '#/core/glob.ts';
 
-import { traverse } from './traverse.js';
+import { traverse } from './traverse.ts';
 
 export const getAllFiles = async (options: Options = {}): Promise<string[]> => {
   const projectRoot = options.projectRoot ?? path.resolve(process.cwd());

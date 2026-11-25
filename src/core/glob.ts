@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-import { getAllFiles } from '@/utils/files.js';
+import { getAllFiles } from '#/utils/files.ts';
 
 /**
  * Options for the `glob` function.
